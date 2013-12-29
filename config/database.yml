@@ -1,23 +1,18 @@
 development:
   adapter: postgresql
   encoding: utf8
-  database: project_development
+  database: bewd_app_development
   pool: 5
-  username:
-  password:
+
 
 test: &TEST
   adapter: postgresql
   encoding: utf8
-  database: project_test
+  database: bewd_app_test
   pool: 5
-  username:
-  password:
 
 production:
   adapter: postgresql
   encoding: utf8
-  database: project_production
+  database: bewd_app_production
   pool: 5
-  username:
-  password:
